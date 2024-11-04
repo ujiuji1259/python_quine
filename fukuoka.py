@@ -1,30 +1,30 @@
 exec("""m=lambda_x:"".join(x.split()).replace("~"+"~",chr(32))""".replace("_",chr(32)),globals());exec(s:=
 m('''s="""exec(\\"\\"\\"m=lambda_x:"".join(x.split()).replace("~"+"~",chr(32))\\"\\"\\".replace("_",chr(32
 )),globals());exec(s:=m(\'\'%r\'\'))"""%s;import~~base64~~as~~b6;import~~zlib;import~~re;from~~datetime~~i
-mport~~dateti  me;tr=lambda~~x,y,z:~~(y~~if~~x~~else~~z);lme=lambda~~x:list(map(lambda~~x:tr(x=="1",1,0),x
-));di=zlib.    decompress(b6.b64decode("7ZZ    dcsMwCITfc5r4/pdrO9PUAnYX9Oe0U/PQqQTig5Xk6HFcZo8btQj1/DEVrq
-KezjahPAZFA    ZSC4Ri/FufqQrEY1ed                ilIqmKFxhNeJGP                                      VFIzf
-82FDo8AMUPL    /e26U+                      z/iIqKySion8bqihgzwg                                      bgm1C
-tbgLUD6SoNT    h/sso+              yHiCRaieAk10IWocyxQ+EvG9o6Vu    QWFrF1XQB1HNpt    jDGq/3agblaF    qX4HF
-KHUtm4KyMLP    g/aii1Ra0KFy17Af    J4D3OtwrlY    cADDnuLwh6aED8    VGYprkqC+RrJDh    wIS5yis9Kk4R    1lsYa
-9GULH                vE    krPI    BRMpm0M5Sv    XmoTEaIPRvbIvn    HwDJlAWEqVk/w+    iVMqFKJZyy14    tQPHA
-CqpLw                At    RB7Vfh    urYK2X    bUWFJSUAWM4Haazf    q/6A6frQtCh1ef    U0HUPCGdqDUj    W/ulc
-eki1agKssyA    WOME7D6A    WQCbkT    xElhRn    6hcIlTlIlRmuVhwB                                      RJwDN
-X6y6i6KVSIs    VeYSxA78rv    SQl5    /BSo    /gwj1SsmABhWTITk5y                                      vdw4p
-s1FuWDVFcng    KNMeS9UC+l    Fsb1yfT2O6K6    gbGF+57w23yjvHkf5j    l0TDzftg1uzKA9    A4prM7ApnXSF    AXGdc
-+1A+Un6YkGA    ZShhHtbXlXTEVmpX6pzG  iR98WBEW0Bp0PCrjdbtRfRfW/L    gZR7IhX/dOocBW    ll1xfjhILkkI    mUUoV
-3CccZwLauTx          xiooNvwIuRJG    H1jgqBvWgpo5FO8JSbkGxMZvtF    tAGo9lpVNNwUsD    vR/ktLGzyPMr    3V0Hl
-5lD6OCsBu1B          MDPkwJmtQ3wX    UiWGwRSgL4fJOo2I/TOBJ1Lk/e    BaPu1E2QUyuehq    4VzpdBUUOuzr    SPQc9
-+gNq1            Lreh                              Vc+pD8A"),-1    5).decode();r=    3;rr=re.sear    ch(";
-r=(\\          d);rr=                              ",s);r=(int(                                      rr.gr
-oup(1    ))    +1)if(int(rr.group      (1))+1<4)else(0);dii=di[                                      r*321
-0:(r+1)*321    0];ss=s.replace(          chr(32),"~"+"~").repla    ce("r=3;rr","r    =%s;rr"%r)+"    #"*su
-m(lme(dii))    ;print("".join        ([    tr(c=="1",ss[sum(lme    (dii)[:j])],tr    (c=="0","@"+    "@",c
-))for(j,c)i    n(enumerate(    di    i))]    ).replace("@"+"@",    chr(32)));''')    )###########    #####
-###########    ##########      ##    ######    ################    ##############    ############    #####
-###########    ########      ####    ########      ##########      ##############    ############    #####
-###########    ####      ########    ##########    ##########    ################    ############    #####
-#####          ######  ##########    ########################    ################    ####            #####
-#####          ##################    ######################    ############################          #####
-#############################################################  ###########################################
+mport~~datetime;tr=lambda~~x,y,z:~~(y~~if~~x~~else~~z);lme=lambda~~x:list(map(lambda~~x:tr(x=="1",1,0),x))
+;di=zlib          .decompress(b6.b64decode("7Z          ZdcsMwCITfc5r4/pdr                O9PUAnYX9Oe0U/PQ
+qQTig5Xk          6HFcZo8btQj1/DEVrqKezjahPAZF          AZSC4Ri/FufqQr                        EY1edilIqmKF
+xhNeJGPV            FIzf82FDo8AMUPL/e26U+z/iIq          KySion8bqihg            zwgb            gm1CtbgLUD
+6SoNTh/s            so+yHiCRaieAk10IWocyxQ+E            vG9o6VuQWFrF      1XQB1HNptjDGq/        3agblaFqX4
+HFKHUtm4            KyMLPg/aii1Ra0KFy17AfJ4D            3OtwrlYcADDnuLwh6aED8VGYprkqC+RrJD      hwIS5yis9K
+k4R1lsYa      9G      ULHvEkrPIBRMpm0M5SvX      mo      TEaIPRvbIvnHwDJlAWEqVk/w+iVMqFKJZy      y14tQPHACq
+pLwAtRB7      Vf      hurYK2XbUWFJSUAWM4Ha      az      fq/6A6frQtCh1efU0HUPCGdqDUjW/ulcek      i1agKssyAW
+OME7D6AW      QC      bkTxElhRn6hcIlTlIlRm      uV      hwBRJwDNX6y6i6KVSIsVeYSxA78rvSQl5/      BSo/gwj1Ss
+mABhWTIT      k5yv      dw4ps1FuWDVFcngK      NMeS      9UC+lFsb1yfT2O6K6gbGF+57w23yjvHkf5      jl0TDzftg1
+uzKA9A4p      rM7A      pnXSFAXGdc+1A+Un      6YkG      AZShhHtbXlXTEVmpX6pzGiR98WBEW0        Bp0PCrjdbtRf
+RfW/LgZR      7IhX/d      OocBWll1xfjhIL    kkImUU      oV3CccZwLauTxxiooN                  vwIuRJGH1jgqBv
+Wgpo5FO8      JSbkGx      MZvtFtAGo9lp      VNNwUs      DvR/ktLGzyPMr3V0Hl              5lD6OCsBu1BMDPkwJm
+tQ3wXUiW      GwRSgL      4fJOo2I/TOBJ      1Lk/eB      aPu1E2QUyuehq4Vzpd                    BUUOuzrSPQc9
++gNq1Lre      hVc+pD8A      "),-15).      decode()      ;r=0;r=(r+1)if(r+1<4)else(0);d          ii=di[r*32
+10:(r+1)      *3210];s      s=s.repl      ace("r=0      ;r=","r=%s;r="%r)+"#"*sum(lme(dii)        );print(
+"".join(      [tr(c=="      1",ss.re      place(ch      r(32),"~"+"~")[sum(lme(dii)[:j])],tr      (c=="0",
+chr(32),      c))for(j,c      )in(      enumerate(      dii))]));'''))######################      ########
+########      ##########      ####      ##########      ####################################      ########
+########      ############      ##    ############      ####################################      ########
+########      ############            ############      ##################################        ########
+########      ############            ############      ##################################      ##########
+########      ##############        ##############      ##########        ############          ##########
+########      ##############        ##############      ##########                            ############
+########      ##############      ################      ############                      ################
+##########################################################################################################
 ##########################################################################################################
